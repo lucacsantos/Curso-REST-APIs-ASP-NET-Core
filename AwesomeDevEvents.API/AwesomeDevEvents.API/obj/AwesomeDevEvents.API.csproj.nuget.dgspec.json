@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Desktop\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj": {}
+    "C:\\Users\\lucas\\Desktop\\Lucas Cosme\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Desktop\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj": {
+    "C:\\Users\\lucas\\Desktop\\Lucas Cosme\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Lucas Cosme\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj",
         "projectName": "AwesomeDevEvents.API",
-        "projectPath": "C:\\Users\\lucas\\Desktop\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj",
+        "projectPath": "C:\\Users\\lucas\\Desktop\\Lucas Cosme\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\AwesomeDevEvents.API.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Desktop\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Desktop\\Lucas Cosme\\Estudos\\LuisDev\\CriandoRestAPIsASP.NetCore\\AwesomeDevEvents.API\\AwesomeDevEvents.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

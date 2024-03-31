@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AwesomeDevEvents.API</name>
+    </assembly>
+    <members>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.GetAll">
+            <summary>
+            Obter todos os eventos
+            </summary>
+            <returns>Coleção de eventos</returns>
+            <response code="200">Sucesso</response>
+        </member>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.GetById(System.Guid)">
+            <summary>
+            Obter um evento
+            </summary>
+            <param name="id">Identificador do evento</param>
+            <returns>Dados do evento</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.Post(AwesomeDevEvents.API.Entities.DevEvent)">
+            <summary>
+            Cadastrar um evento
+            </summary>
+            <remarks>
+            {"title": "string", "description": "string", "startDate": "2024-03-31T17:52:51.125Z", "endDate": "2024-03-31T17:52:51.125Z"}
+            </remarks>
+            <param name="devEvent">Dados do evento</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Sucesso</response>
+        </member>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.Update(System.Guid,AwesomeDevEvents.API.Entities.DevEvent)">
+            <summary>
+            Atualizar um evento
+            </summary>
+            <remarks>
+            {"title": "string", "description": "string", "startDate": "2024-03-31T17:52:51.125Z", "endDate": "2024-03-31T17:52:51.125Z"}
+            </remarks>
+            <param name="id">Identificador do evento</param>
+            <param name="input">Dados do evento</param>
+            <returns>Nada</returns>
+            <response code="404">Não encontrado.</response>
+            <response code="204">Sucesso</response>
+        </member>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.Delete(System.Guid)">
+            <summary>
+            Deletar um evento   
+            </summary>
+            <param name="id">Identificador do evento</param>
+            <returns>Nada</returns>
+            <response code="404">Não encontrado.</response>
+            <response code="204">Sucesso</response>
+        </member>
+        <member name="M:AwesomeDevEvents.API.Controllers.DevEventsController.PostSpeaker(System.Guid,AwesomeDevEvents.API.Entities.DevEventSpeak)">
+            <summary>
+            Cadastrar palestrante
+            </summary>
+            <remarks>
+            {"name":"string","talkTitle":"string","talkDescription":"string","linkedInProfile":"string"};
+            </remarks>
+            <param name="id">Identificador do evento</param>
+            <param name="speaker">Dados do palestrante</param>
+            <returns>Nada</returns>
+            <response code="204">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="T:AwesomeDevEvents.API.Persistence.Migrations.FirstMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:AwesomeDevEvents.API.Persistence.Migrations.FirstMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AwesomeDevEvents.API.Persistence.Migrations.FirstMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AwesomeDevEvents.API.Persistence.Migrations.FirstMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
